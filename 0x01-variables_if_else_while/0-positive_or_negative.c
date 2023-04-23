@@ -3,25 +3,20 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * Discription: 'Check for number if it is positive or negative'
- * Return: always o
+ * Discription: 'Check for number if it is positive,negative or 0'
+ * Return: Always 0
  */
 int main(void)
 {
 	int n;
 
 	srand(time(0));
-	n = rand() - RAND_MAX / 2;
+	n = rand() - RAND_MAX / i2;
 	if (n > 0)
-	{
 		printf("%d is positive\n", n);
-	}
 	else if (n == 0)
-	{
 		printf("%d is zero\n", n);
-	}
 	else
-	{
 		printf("%d is negative\n", n);
-	}
+	return (0);
 }
